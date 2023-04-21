@@ -4,22 +4,26 @@
 <head>
     <title>My Personal Website</title>
     <meta name="description" content="Our first page">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>Welcome to my HTML page!</h1>
-    <p>My name is Jeffrey Zhang and I'm a Computer Engineering student at UCSC.</p>
-    <p>About me: I like computers and using modern shells.</p>
-    <a href="https://github.com/jzhan753/"><img src="./github-mark.svg" alt="Github" width="30"></a>
+    <div>
+        <p class="info-p">My name is Jeffrey Zhang and I'm a Computer Engineering student at UCSC.</p>
+        <p class="info-p">About me: I like computers and using modern shells.</p>
+    </div>
+    <a href="https://github.com/jzhan753/"><img class="social-logo" src="./github-mark.svg" alt="Github" width="30"></a>
 
-    <h2>My Projects</h2>
-    <dl>
+    <h2 class="projects">My Projects</h2>
+    <dl id="project-list">
         <dt>MITRE eCTF Team Member</dt>
         <dd>Wrote developer tooling, firmware, and carried out attacks.</dd>
         <dt>DoE Cyberforce Team Member</dt>
         <dd>Deployed website and solved anomalies.</dd>
         <dt>
-            <a href="https://news.ucsc.edu/2022/12/nsa-codebreaker-challenge.html">NSA Codebreaker Challenge Solver</a>
+            <a href="https://news.ucsc.edu/2022/12/nsa-codebreaker-challenge.html" class="textlink">NSA Codebreaker
+                Challenge Solver</a>
         </dt>
         <dd>Solved all challenges, school ranked third.</dd>
     </dl>
